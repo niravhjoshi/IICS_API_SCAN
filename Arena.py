@@ -31,7 +31,7 @@ headers = {
         }
 
 
-payload = "{\r\n\"@type\": \"login\",\r\n\"username\": \"nijoshi@informatica.com.nutanix\",\r\n\"password\": \"Informatica1\"\r\n}"
+payload = "{\r\n\"@type\": \"login\",\r\n\"username\": \"nxx\",\r\n\"password\": \"xxxx\"\r\n}"
 
 response = requests.request("POST", user_iics_loginURL, data=payload, headers=headers)
 resp_obj = json.loads(response.text)
